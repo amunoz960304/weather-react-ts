@@ -1,0 +1,36 @@
+.form,
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form input[type='text'],
+.form select {
+  padding: 1rem;
+  background-color: transparent;
+  border: 0.3rem solid var(--withe);
+  color: var(--withe);
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.field ::placeholder {
+  color: var(--withe);
+}
+
+.submit {
+  background-color: var(--primary);
+  border: none;
+  color: var(--withe);
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 1rem;
+}
